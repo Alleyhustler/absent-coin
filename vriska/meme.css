@@ -1,0 +1,135 @@
+body {
+  background-image: url("memebg.png");
+  background-repeat:no-repeat;
+     background-size: 100% 100%;
+     min-height: 110vh;
+       overflow-y: hidden;
+  color: black;
+    font-family: "sans";
+      font-size:25px;
+}
+@font-face {
+  font-family: "sans";
+  src: url("sans.ttf") format("truetype");
+}
+.title {
+  font-family: "sans";
+  font-size: 100px;
+text-shadow: 6px 6px 6px black;
+font-weight: bold;
+  color: white;
+  padding: 10px;
+  margin: 3;
+}
+
+.flex {display:flex; justify-content:center; height:80vh; flex-wrap: nowrap; gap: 300px; align-items: center;    right: 0; }
+
+.flex1 {display:flex; justify-content:center; height:90vh; flex-wrap: wrap; gap: 15px; align-items: center;    right: 0;}
+#aboutflex {
+  
+  display:flex; justify-content:center; height:80vh; flex-wrap: nowrap; gap: 300px; align-items: center;    right: 0;
+  
+  
+}
+.flexbar {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  
+}
+.flexbarin {
+  
+   width: 25%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+
+.flexbarin1 {
+   width: 73%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: white;
+  padding: 5px;
+  
+}
+.square {
+  background-color: #2f0a5e;
+  border: 9px solid green;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square2 {
+  background-color: #2f0a5e;
+  border: 9px solid green;
+  border-radius: 5px;
+  width: 80%;
+  height: 95%;
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+.holder {
+
+  padding: 15px;
+  height: 55vh; /* Adjust the height of the container as desired */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  background-color:  #054d24;
+  width: 560px;
+  justify-content: space-evenly;
+  align-items: stretch; 
+  left: 60px;
+ display: flex;
+ flex-wrap: wrap;
+ border: 10px solid black;
+}
+
+#black {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: none;
+  background-repeat: repeat;
+}
+#bg {
+
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 120vh;
+  width: 120vw;
+  background-image: url("sans-dancing.gif");
+  background-repeat: repeat;
+}
+
+#dvd {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 50px;
+  width: 100px;
+  background-image: url("sighead.png");
+  background-repeat: no-repeat;
+  background-size: 75px;
+  background-position: center;
+  background-color: transparent;
+}

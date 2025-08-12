@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Found</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+
+<h style="color: red;"> oh NOEZ...how did u get here...don't worry!! </h>
+
+<img src="/rathasmall.jpg" id="toggleButton" style="max-width: 300px;">
+
+<a href="/index.html"><img id="bgImg" src="/RATHA2.png" style="display: none;"></a>
+<h style="color: red; display: none;" id="bgText"> big ratha take u home </h>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleButton = document.getElementById('toggleButton');
+  const bgImg = document.getElementById('bgImg'); 
+  const bgText = document.getElementById('bgText');
+
+  toggleButton.addEventListener('click', function() {
+    bgImg.style.display = 'inline';
+    bgText.style.display = 'inline';
+    toggleButton.style.display = 'none'; 
+  });
+});
+</script>
+
+  </body>
+</html>

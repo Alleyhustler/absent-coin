@@ -1,0 +1,325 @@
+body {
+  background-image: url("images/between.jpg");
+  background-repeat:no-repeat;
+     background-size: 100% 100%;
+     min-height: 150vh;
+       overflow-y: hidden;
+  color: gold;
+    font-family: "Reggae";
+}
+@font-face {
+  font-family: "Reggae";
+  src: url("Reggae.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Splatoon";
+  src: url("../splatoon-font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.webringbox {
+  width: 85%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../acht/minidome/thbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-wrap : wrap;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  
+}
+#alterhuman-ring table {
+  
+max-height: 100px;  
+  
+  
+}
+#alterhuman-ring td {
+  
+border: none;
+  
+  
+}
+#p-ring {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  
+  
+}
+#p-ring .ring-container {
+ width: 240px;
+height: 175px;
+  
+  
+}
+.adoptbox {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+#arg img {
+  width: 100%;
+  
+}
+.adoptbox b {
+  width: 100%;
+  
+}
+.adoptbox a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#rhythmring-img{
+    content: url("../../maddycha.com/rhythm-ring/imgs/widget/g3.png") !important;
+}
+#pluring table {
+  max-height: 150px;
+  border: none;
+  
+}
+#pluring tr {
+
+  border: none;
+  
+}
+#pluring td {
+
+  border: none;
+  
+}
+#MHfanring table {
+  max-height: 150px;
+  border: none;
+  
+}
+#MHfanring tr {
+
+  border: none;
+  
+}
+#MHfanring td {
+
+  border: none;
+  
+}
+.webringholder {
+  
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+table {
+  height: 73vh;
+  position: relative;
+}
+td {
+ text-align: center;
+  padding: 10px;
+  background-color: #0e6132;
+  border: 7px solid gold;
+  color: #021a14;
+}
+
+#table img {
+  width: 100%;
+}
+
+#fictionfolk td {
+  max-height: 100px;
+  border: none;
+  
+}
+#fictionfolk tr {
+  max-height: 100px;
+  border: none;
+  
+}
+#fictionfolk table {
+  height: 85px;
+  border: none;
+  
+}
+.bigcontainer {
+  padding: 10px;
+  height: 70vh; /* Adjust the height of the container as desired */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  background-color:  #0e6132;
+  width: 400px;
+  justify-content: center;
+  align-items: center; 
+  left: 60px;
+  border: 7px solid gold;
+}
+.bigcontainer h {
+  text-align: center;
+}
+
+.fakecontainer {
+  width: 100%;
+  display: flex;
+    justify-content: center;
+  align-items: center; 
+}
+  
+.fanlistings {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ width: 100%;
+ gap: 2px;
+  
+}
+
+.section {
+  display: flex;
+            justify-content: center;
+            align-items: center;
+             flex-wrap: nowrap;
+  gap: 2vw; 
+  width: 100%;
+}
+.header3 {
+    padding:10px;
+  text-align: center;
+  font-size: 55px;
+  top: 70px;
+  animation: green-animation 10s  infinite;
+  text-shadow: 0 0 5px  white;
+}
+@keyframes green-animation {
+   5% { color: #f0e226; }
+  20% { color: #fffbc7; }
+  90% { color: #ffb042; }
+     100% { color: #f0e226; }
+}
+.glow-image {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .glow-image:hover {
+            transform: scale(1.1);
+            filter: blur(1px);
+              color: gold; /* Color on hover */
+        }
+a {
+  color: black; /* Default color */
+   text-decoration: none;
+}
+
+a:hover {
+  color: gold; /* Color on hover */
+}
+
+a:visited {
+  color: black; /* Color for visited links */
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: gold;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px 0;
+  border-radius: 0px;
+   top: -5px;
+  left: 105%;
+
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+
+}
+.box {
+ height: 100px;
+ overflow-y: scroll;
+ background-color: grey;
+ border: 2px solid black;
+overflow-x: hidden;  
+text-wrap: normal;  
+overflow-wrap: break-word; 
+display: flex;
+word-break: break-all;
+ white-space: pre-wrap;
+ font-family: courier;
+ color: black;
+}
+
+#fav {
+  
+ display: flex; justify-content: center;
+ width: 100%;
+HEIGHT: 600px;
+}
+#fav img {
+  
+  width: 100%;
+}
+#fava
+{ background-color: #87abe6;
+width: 23%;
+color: #080b3b;
+height: 100%;
+overflow-y: scroll;
+min-height: 350px;
+padding: 6px;
+}
+#favv
+{ background-color: #aa77d9;
+width: 23%;
+color: #26083b;
+height: 100%; overflow-y: scroll;min-height: 350px; padding: 6px;}
+#favp
+{ background-color: #77d996;
+width: 23%;
+color: #083b25;
+height: 100%; overflow-y: scroll;min-height: 350px;padding: 6px;}
+#favg
+{ background-color: #eb81bd;
+width: 23%;
+color: #3b081e;
+height: 100%; overflow-y: scroll;min-height: 350px;padding: 6px;}
+
+#p {
+  color: #089950;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#a {
+  color: #7d93ff;  width: 100%;
+}
+
+#v {
+   color:#3a1269;  width: 100%;
+}
+#g {
+   color: #ffa6bf;  width: 100%;
+}

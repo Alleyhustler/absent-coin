@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  
+<!-- Mirrored from tesseractcube.neocities.org/vriska/about by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Aug 2025 20:22:20 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>cuboid world</title>
+       <link rel="icon" type="image/x-icon" href="rehaul/images/tessicon.html">
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+     <link href="meme.css" rel="stylesheet" type="text/css" media="all">
+    <script>  var scrl = "hey ::::) 🕸️  ";
+      function scrlsts() {
+        scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
+        document.title = scrl;
+        setTimeout(scrlsts, 300);
+      }
+      window.onload = scrlsts;
+    </script>
+  </head>
+  <body style="overflow-x: hidden; color: purple;">
+
+ <div class="flex1">
+ <div class="flexbar"> 
+<a href="memeworld.html"> <p> Go Back???????? </p> </a>  <div class="square"> <img src="sighead.png"> </div>   <button style="background-color: #2f0a5e; border: 4px solid green;
+  border-radius: 5px; color: white; font-family: sans;" onclick="toggleReplace()">Toggle Quirk~</button>
+ </div>
+ <div class="flexbar"> 
+ <div class="square2">
+ <div class="flexbarin1">Aww~ You clicked on my little head! Congrats. I'll prettily stand in one of those flexboxes for you as a reward. If you want to know more about me, continue reading. TW for everything, spoilers for everything under the sun ::::) <br> <br>  If you're a nerd (you know who you are) you'll use my full, legal, government name, No Significant Harrassment. Don't do that. Or do, I'm not gonna stop you. I'm the resident nonfronter, resident freak etc etc blah blah bluh. The green one BULLIED me into fictionkinning. Bullied! So, indeed, I emerged from my cocoon as a beautiful troll and eventually ended up presenting as this thing most of the time. In terms of Homestuck, I could honestly not give less of a damn about it. Only thing I actively enjoy from it is 1. Me, 2, my quirk, and 3 Maybe Terezi. In terms of Rain World, I won't recite pearls or logs to you, but I do actually enjoy it as a source. I like the red thing. And I like Moon ;;;;P I don't think I'm really "like" either of my sources. I know, I'm special and unique like that. The green one doesn't really like me, and I'm chill with Gangle. She's chill. And you know how I am about Moon. Also, I FW Vector the Crocodile heavy. That's it that's the page. Huh? WYM I just re-summarized the page you were just on? Damn okay. Whatever. Kicks a rock. My pronouns are he/she, it if you're feeling freaky, and my gender is the world. Moon's writing this for me and the tenor's way off. But they're trying and that's beautiful so it's okay. They call me the glazer. Once I threatened Peridot with the prospect of kinning sans undertale, I just want you to know that. I didn't go through with it but you know what? I could. It's good to have threats locked n loaded though. My system role is "the hot one". It's a medical term, so be careful where you say that. Are you tired of my one-liners? Go away ::::) Moon says I'm a bad influence. I won't say that he's wrong! Hey, the thoughts had to go somewhere. This damn system's split in half, one half is nefarious no-gooders and the other half is goody two shoe syndic8. I was around during the Shadow the Hedgehog Incident. The what? What did you just say? Wow, life's hard being so beautiful---and not having to do any work, ever. Lol. Other than my job. My~ Job~ Speaking of that, I'm only really near front when Moon's in front. Maybe that's just because Peridot wards me away (and let's b real, I don't REALLY want to talk to him anyway), and I'm not too close to Gangle. Might hafta work on the ladder. Bye, for real! <br> <br> <br> <br> <img src="trapdoor.png" style="height: 200px;"> Boo! Scary yucky spider! </div>
+  <div class="flexbarin"> <img src="sigdoll.png" style="height: 100%;"> </div>
+ </div>
+ </div>
+ </div>
+ 
+ 
+ 
+  <div id="bg" style="z-index: -5;"> </div>
+ <script>
+  let toggled = false;
+
+ function toggleReplace() {
+  const walker = document.createTreeWalker(
+    document.body,
+    NodeFilter.SHOW_TEXT,
+    {
+      acceptNode: function(node) {
+        let parent = node.parentNode;
+        while (parent) {
+          if (parent.classList && parent.classList.contains("post-title")) {
+            return NodeFilter.FILTER_REJECT;
+          }
+          parent = parent.parentNode;
+        }
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    }
+  );
+
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    if (!node.hasOwnProperty("originalText")) {
+      node.originalText = node.textContent;
+    }
+
+    node.textContent = toggled
+      ? node.originalText
+      : node.originalText.replace(/b/gi, match => match === "8" ? "8" : "8");
+  }
+
+  toggled = !toggled;
+  }
+</script>
+  </body>
+
+<!-- Mirrored from tesseractcube.neocities.org/vriska/about by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Aug 2025 20:22:20 GMT -->
+</html>
